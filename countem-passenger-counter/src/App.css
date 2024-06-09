@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+.LOGO {
+  width: 40%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.Count {
+  text-align: center;
+  color: #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1000%;
+}
+
+.Column {
+  display: flex;
+}
+
+.Button {
+  text-align: center;
+  width: 15%;
+  height: 8%;
+  background-color: #684D43;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  color: #fff;
+  border-radius: 100px;
+  font-size: 50px;
+}
+
+@font-face {
+  font-family: 'SFProRounded';
+  src: url('./Fonts/SF-Pro-Rounded-Bold.otf');
+}
