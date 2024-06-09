@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <h1>Countem</h1>
-      <p>The Count is {count}</p>
+      <h1>{count}</h1>
       <button onClick={decrement} className='button'>-</button>
       <button onClick={increment} className='button'>+</button>
     </>
